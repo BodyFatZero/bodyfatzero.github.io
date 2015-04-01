@@ -1,0 +1,235 @@
+﻿/* Space out content a bit */
+
+/* Everything but the jumbotron gets side spacing for mobile first views */
+.header,
+.marketing,
+.footer {
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+body {
+	background-color: bisque;
+}
+
+#bg {
+	background-image:url('../images/young%20man.jpg');	
+	background-repeat:no-repeat;
+	background-size: 1450px 500px;
+	background-position: 0px 90px;
+}
+
+/* Custom page header */
+.header {
+  border-bottom: 1px solid #e5e5e5;
+}
+/* Make the masthead heading the same height as the navigation */
+.header h3 {
+  padding-bottom: 19px;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: 40px;
+}
+
+/* Custom page footer */
+.footer {
+  padding-top: 19px;
+  color: #777;
+  border-top: 1px solid #e5e5e5;
+  text-align:center;
+}
+
+.container-narrow > hr {
+  margin: 30px 0;
+}
+
+/* Main marketing message and sign up button */
+.jumbotron {
+  	text-align: center;
+	padding-top: 10px;
+	background-color: transparent;
+	margin-top: 90px;
+}
+
+.jumbotron p {
+	font-family: 'Cabin', cursive, sans-serif;
+	padding-bottom: 20px;
+	font-size: 26px;
+}
+
+.jumbotron .p2 {
+	font-family: 'Cabin', cursive, sans-serif;
+	padding-top: 60px;
+	padding-bottom: 30px;
+	font-size: 72px;
+	font-weight: bold;
+	color: floralwhite;
+}
+
+.jumbotron .p3	{
+	font-family: 'Dancing Script', cursive, sans-serif;
+	font-size: 56px;
+	font-weight: 500;
+	color: goldenrod;
+	padding-bottom: 100px;
+}
+
+.jumbotron h1 {
+	font-family: 'Indie Flower', cursive, sans-serif;
+	text-align: center;
+	font-size: 56px;
+}
+
+.navbar {
+	font-family: 'Arvo', cursive, sans-serif;
+  	font-size: 16px;
+  	font-weight:bold;
+  	color: white;
+  	padding: 20px 0px;
+}
+
+.navbar h3 {
+	margin-left: 20px;
+	margin-top: 10px;
+}
+
+.navbar .navbar-header a {
+	  font-size: 24px;
+}
+
+
+/* Supporting marketing content */
+.marketing {
+  margin: 40px 0;
+  text-align: center;
+}
+
+.marketing .col-lg-12 {
+	margin: 0px auto;
+}
+
+.marketing .col-lg-12 h3 {
+	font-family: 'Indie Flower', cursive, sans-serif;
+	color: darkgreen;	
+}
+
+.marketing .col-lg-12 p {
+	  font-size: 18px;
+  		font-weight: 100;
+  		margin-top: 15px;
+  		margin-bottom: 30px;
+}
+.marketing figure a img {
+
+	height: 300px;
+	width: 500px;
+}
+
+
+.marketing p + h4 {
+  margin-top: 28px;
+}
+
+/* Responsive styling */
+
+@media (max-width: 1199px){
+	
+	#bg {
+	background-size: 1250px 500px;
+	}
+}
+
+@media (max-width: 991px) {
+
+	#bg {
+	background-size: 1000px 400px;
+	}
+	
+	.jumbotron .p2 {
+	font-size: 66px;
+	padding-bottom: 20px;
+	}
+	
+	.jumbotron .p3 {
+	font-size: 48px;
+	color: darkgoldenrod;
+	padding-bottom: 80px;
+	}
+	
+	.jumbotron h1 {
+	font-size: 50px;
+	padding-bottom: 15px;
+	}
+	
+	.jumbotron p {
+	font-size: 22px;
+	}
+}
+/* Responsive: Portrait tablets and up */
+@media (max-width: 767px) {
+  /* Remove the padding we set earlier */
+  
+  #bg{
+	background-size: 768px 400px;
+}
+  
+  .header,
+  .marketing,
+  .footer {
+    padding-right: 0;
+    padding-left: 0;
+  }
+  /* Space out the masthead */
+  .header {
+    margin-bottom: 30px;
+  }
+  /* Remove the bottom border on the jumbotron for visual effect */
+  .jumbotron {
+    border-bottom: 0;
+  }
+  
+  .navbar .col-lg-3 ul {
+  	position:absolute;
+  }
+
+  .navbar .col-lg-3 a {
+	font-size: 18px;
+  }
+  .jumbotron .p2 {
+  	font-size: 45px;
+  	padding: 20px 0px 10px 10px;
+  }
+  .jumbotron .p3 {
+  	font-size: 36px; 	
+  }
+  .jumbotron p {
+	font-size: 18px;
+  }
+  .marketing .col-lg-12 p {
+	font-size: 14px
+  }
+}
+
+@media (max-width: 500px){
+
+	#bg {
+	background-size: 500px 300px;
+	}
+	
+	.marketing img {
+	height: 210px;
+	width: 320px;
+	}
+	.marketing figure a img {
+	height: 210px;
+	width: 320px;
+}
+	
+}
+
+/* Customize container */
+@media (min-width: 768px) {
+  .container {
+    max-width: 730px;
+  }
+}
